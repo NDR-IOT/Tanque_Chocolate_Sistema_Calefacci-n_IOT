@@ -1,12 +1,10 @@
 {
-  "name": "render-node-red",
+  "name": "node-red-render",
   "version": "1.0.0",
-  "description": "Node-RED para Render",
-  "main": "index.js",
-  "scripts": {
-    "start": "node node_modules/node-red/red.js --userDir ."
-  },
+  "scripts": {  "start": "node node_modules/node-red/red.js --userDir ." },
   "dependencies": {
-    "node-red": "latest"
+    "node-red": "latest",
+    "node-red-dashboard": "latest",
+    "node-red-contrib-ui-led": "latest"
   }
 }
